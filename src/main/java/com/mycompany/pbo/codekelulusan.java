@@ -7,13 +7,9 @@ import java.util.Scanner;
 /**
  *
  * @author defaultuser0
- */
-public class codekelulusan {
-    /**
-*
-* @author affandeZone
+
 */
-public class Kelulusan1 {
+public class codekelulusan {
 public static void main(String[] args) {
 // Buat Scanner
 Scanner inp = new Scanner(System.in);
@@ -27,15 +23,15 @@ System.out.print("Masukkan NIM = ");
 String nim = inp.next();
 
 // Ambil Nilai
-System.out.print("Masukkan nilai");
-int nilai = inp.nextInt();
+System.out.print("Masukkan nilai = ");
+int nilai = inp.nextInt(); 
 
 //print
 if(nilai > 55) {
 System.out.println("Anda lulus ");
-}
-else {
+}else {
 System.out.println("Anda tidak lulus ");
+}
 }
 }
 
